@@ -1,0 +1,17 @@
+//$bg: #111111;
+//$text: #eee;
+//
+//body {
+//  background: $bg;
+//  color: $text;
+//  font-family: sans-serif;
+//
+//  .timer {
+//    font-size: 3rem;
+//  }
+//}
+$border: rgb(216, 109, 226);
+
+* {
+  border: solid 1px $border;
+}

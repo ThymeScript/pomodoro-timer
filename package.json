@@ -1,0 +1,25 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "Small project for web basics",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:css",
+    "compile-sass": "sass scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThymeScript/pomodoro-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ThymeScript/pomodoro-timer/issues"
+  },
+  "homepage": "https://github.com/ThymeScript/pomodoro-timer#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
