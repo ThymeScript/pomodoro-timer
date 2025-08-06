@@ -4,6 +4,15 @@
 
 .timer {
   border: solid 4px green;
+  text-align: center;
+}
+
+.setting {
+  display: inline-block;
+}
+
+.running {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
