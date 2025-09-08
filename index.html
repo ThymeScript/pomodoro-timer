@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pomo Timer</title>
   <link href="./css/main.css" rel="stylesheet">
+  <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -14,24 +15,24 @@
     <div class="setup">
       <div class="setting" id="session">
         <p>Session</p>
-        <h2>25</h2>
+        <h2 id="sessionTime">25</h2>
         <p>min</p>
-        <button>Up</button>
-        <button>Down</button>
+        <button onclick="increaseCounter('sessionTime')">Up</button>
+        <button onclick="decreaseCounter('sessionTime')">Down</button>
       </div>
       <div class="setting" id="break">
         <p>Break</p>
-        <h2>5</h2>
+        <h2 id="breakTime">5</h2>
         <p>min</p>
-        <button>Up</button>
-        <button>Down</button>
+        <button onclick="increaseCounter('breakTime')">Up</button>
+        <button onclick="decreaseCounter('breakTime')">Down</button>
       </div>
       <div class="setting" id="repetition">
         <p>Repeat</p>
-        <h2>2</h2>
+        <h2 id="repetitions">2</h2>
         <p>times</p>
-        <button>Up</button>
-        <button>Down</button>
+        <button onclick="increaseCounter('repetitions')">Up</button>
+        <button onclick="decreaseCounter('repetitions')">Down</button>
       </div>
       <br>
       <button id="start">Start</button>
