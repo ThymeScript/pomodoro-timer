@@ -14,7 +14,6 @@ $border: rgb(216, 109, 226);
 $box-color: rgb(163, 163, 236);
 
 * {
-  border: solid 1px $border;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -24,7 +23,6 @@ h1 {
 }
 
 .timer {
-  border: solid 4px green;
   text-align: center;
 }
 
@@ -42,6 +40,7 @@ h1 {
 
 button {
   border-radius: 25px;
+  border: none;
   padding: 10px;
   width: 80px;
 }

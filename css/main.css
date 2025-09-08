@@ -1,5 +1,4 @@
 * {
-  border: solid 1px rgb(216, 109, 226);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -9,7 +8,6 @@ h1 {
 }
 
 .timer {
-  border: solid 4px green;
   text-align: center;
 }
 
@@ -27,6 +25,7 @@ h1 {
 
 button {
   border-radius: 25px;
+  border: none;
   padding: 10px;
   width: 80px;
 }
